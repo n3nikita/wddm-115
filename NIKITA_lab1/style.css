@@ -5,8 +5,8 @@
 
 body {
   font-family: sans-serif;
-  background-color: #333;
-  color: green;
+  background-color: #000000;
+  color: rgb(106, 189, 106);
 }
 
 .main {
@@ -50,4 +50,21 @@ th {
 
 iframe {
   margin-top: 20px;
+}
+
+/* update by patty: added LinkedIn button style code */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
